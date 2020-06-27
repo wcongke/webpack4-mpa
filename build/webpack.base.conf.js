@@ -75,12 +75,6 @@ module.exports = {
 					name: 'common', // 任意命名
 					minSize: 0, // 只要超出0字节就生成一个新包
 					minChunks: 2
-				},
-				jquery: {
-					chunks: 'initial',
-					name: 'jquery',
-					test: '../src/assets/libs/lulu/theme/peak/js/plugin/jquery.js',
-					provide: -1
 				}
 			}
 		}
